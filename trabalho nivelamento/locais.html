@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Locais de descarte</title>
+
+<style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile{
+    width: 390px;
+    height: 844px;
+    background: #f5f5f5;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.topo{
+    background: #1e5eff;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    background: white;
+    border-radius: 50%;
+}
+
+.conteudo{
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 22px;
+    color: #1e5eff;
+    margin-bottom: 20px;
+}
+
+.mapa{
+    border: 3px solid #1e5eff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.mapa img{
+    width: 100%;
+    display: block;
+}
+
+.voltar{
+    margin-top: 25px;
+    display: inline-block;
+    color: #1e5eff;
+    text-decoration: none;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="mobile">
+
+    <div class="topo">
+        <img src="img/logo.png" class="logo">
+    </div>
+
+    <div class="conteudo">
+
+        <div class="titulo">Locais de descarte</div>
+
+        <div class="mapa">
+            <img src="img/mapa.png" alt="Mapa de locais de descarte">
+        </div>
+
+        <a href="opcoes.html" class="voltar">← Voltar</a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
