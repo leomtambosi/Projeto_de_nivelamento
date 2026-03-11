@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            background: #d9d9d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mobile{
+            position: relative;
+            width: 390px;
+            height: 844px;
+            background: white;
+            border-radius: 40px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.2);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .topo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 290px;
+            background: rgba(0,0,0,0.08);
+            border-top-left-radius:35px;
+            border-top-right-radius:35px;
+        }
+        
+        .conteudo{
+            margin-top: 300px;
+        }
+
+        .titulo{
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        label{
+            font-size: 14px;
+            color: #333;
+        }
+
+        .obrigatorio{
+            color: red;
+        }
+
+        input{
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            margin-bottom: 18px;
+            border: none;
+            border-radius: 8px;
+            background: #e9edf5;
+            font-size: 14px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .botao{
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            background: #1e5eff;
+            color: white;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .voltar{
+            margin-top: 20px;
+            text-align: center;
+            color: #1e5eff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile">
+        <div class="topo"></div>
+        <div class="conteudo">
+        <div class="titulo">Cadastro</div>
+        <form>
+            <label>Nome<span class="obrigatorio">*</span></label>
+            <input type="text">
+            <label>CPF<span class="obrigatorio">*</span></label>
+            <input type="text">
+            <label>CEP<span class="obrigatorio">*</span></label>
+            <input type="text">
+            <label>Endereço<span class="obrigatorio">*</span></label>
+            <input type="text">
+
+            <button type="button" class="botao" onclick="window.location.href='inicio.html'">Entrar</button>
+        </form>
+</div>
+         <a href="primeiratela.html">
+            <div class="voltar">← Voltar</div>
+         </a>
+        
+    </div>
+</body>
+</html>

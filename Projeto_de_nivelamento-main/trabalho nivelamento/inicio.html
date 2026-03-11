@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            background: #d9d9d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mobile{
+            width: 390px;
+            height: 844px;
+            background: #f5f5f5;
+            border-radius: 40px;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(0,0,0,0.2);
+        }
+
+        .topo{
+            background: #1e5eff;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{
+            width: 70px;
+            background: white;
+            border-radius: 50%;
+        }
+
+        .conteudo{
+            padding: 25px;
+            text-align: center;
+        }
+
+        .titulo{
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .imagem{
+            width: 100%;
+            border-radius: 6px;
+            margin-bottom: 35px;
+        }
+
+        .texto{
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 35px;
+        }
+
+        .botao{
+            display: block;
+            background: #1e5eff;
+            color: white;
+            padding: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile">
+        <div class="topo">
+            <img src="img/logo.png" class="logo">
+        </div>
+
+        <div class="conteudo">
+            <div class="titulo">Nos conheça</div>
+            <img src="img/reciclagem.png" class="imagem">
+            <div class="texto">
+                Somos uma empresa de denúncia e conscientização sobre poluição ambiental em Joinville, comprometida com a preservação do meio ambiente e a qualidade de vida da nossa comunidade. Atuamos recebendo, analisando e encaminhando denúncias de irregularidades ambientais, sempre com responsabilidade, sigilo e transparência.
+            </div>
+
+            <a href="opcoes.html" class="botao">Avançar</a>
+        </div>
+    </div>
+</body>
+</html>
